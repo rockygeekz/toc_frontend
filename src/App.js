@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-center mb-6">DFA Minimization and Lexical Analysis</h1>
+        <h1 className="text-3xl font-bold text-center mb-6">DFA Minimization for Lexical Analyzers in Compilers</h1>
         <InputForm onSubmit={processCode} />
         {loading ? (
           <div className="flex justify-center mt-4">
